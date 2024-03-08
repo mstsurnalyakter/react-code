@@ -20,8 +20,15 @@ function App() {
 }
 
 function Students({name,id,subject}){
+  const studentStyle = {
+    border:'3px solid red',
+    padding:'20px',
+    margin:'20px',
+    borderRadius:'10px'
+
+  }
   return (
-    <div>
+    <div style={studentStyle}>
       <h3>Name: {name} </h3>
       <h3>Id: {id}</h3>
       <h3>Subject: {subject}</h3>
@@ -31,8 +38,14 @@ function Students({name,id,subject}){
 
 function Device(props){
     // console.log(props);
+    const deviceStyle = {
+      border: "3px solid red",
+      padding: "20px",
+      margin: "20px",
+      borderRadius: "10px",
+    };
   return (
-    <div>
+    <div style={deviceStyle}>
       <h3>This Device: {props.name} price: {props.price} </h3>
     </div>
   )
