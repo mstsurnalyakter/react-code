@@ -5,12 +5,14 @@
 
 import './App.css'
 import Gallery from './Gallery'
+import Obj from './Obj'
 
 function App() {
 
   return (
     <>
       <Gallery></Gallery>
+      <Obj></Obj>
     </>
   )
 }

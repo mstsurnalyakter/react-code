@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import Books from "./Books"
 
 export default function BookStore({books}){
@@ -7,6 +8,7 @@ export default function BookStore({books}){
             {
                 books.map((book,index)=><Books key={index} book={book}></Books>)
             }
+            <br />
         </div>
     )
 }

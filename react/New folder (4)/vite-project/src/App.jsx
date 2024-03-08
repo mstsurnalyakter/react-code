@@ -5,9 +5,10 @@ function App() {
   return (
     <>
       <h1>Vite + React</h1>
-      <Todo task="Learn React" isDone={true}></Todo>
+      <Todo task="Learning JavaScript" isDone={true}></Todo>
     </>
   );
 }
+
 
 export default App;
