@@ -4,6 +4,7 @@ import Todo2 from './Todo2';
 import Todo3 from './Todo3';
 import Todo4 from './Todo4';
 import Todo5 from './Todo5';
+import Todo6 from './Todo6';
 
 function App() {
   return (
@@ -26,6 +27,10 @@ function App() {
       <h3>Todo App 5</h3>
       <Todo5 task="Learning Reading English" isDone={true}></Todo5>
       <Todo5 task="Learning Speaking English" isDone={false}></Todo5>
+
+      <h3>Todo App 6</h3>
+      <Todo6 task="Learning Writing English" isDone={true}></Todo6>
+      <Todo6 task="Learning Speaking English" isDone={false}></Todo6>
     </>
   );
 }
