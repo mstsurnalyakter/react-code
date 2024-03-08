@@ -3,11 +3,24 @@ const Obj = () => {
         name:'Peter',
         age:50
     }
+    const {name,age} = person;
   return (
-    <div>
-        <h1>{person}</h1>
+    <div style={{
+        padding:'20px',
+        background:'white',
+        color:'red'
+    }}>
+      <p>Name: {name}</p>
+      <p>Age: {age}</p>
+      {/* <p>
+        person =
+        {{
+          name: "Peter",
+          age: 50,
+        }}
+      </p> */}
     </div>
-  )
+  );
 }
 
 
