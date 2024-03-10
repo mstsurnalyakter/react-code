@@ -12,13 +12,7 @@ const Obj = () => {
     }}>
       <p>Name: {name}</p>
       <p>Age: {age}</p>
-      {/* <p>
-        person =
-        {{
-          name: "Peter",
-          age: 50,
-        }}
-      </p> */}
+
     </div>
   );
 }
